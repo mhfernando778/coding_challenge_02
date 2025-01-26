@@ -28,11 +28,11 @@ employee.position = "Worker"; // added employee position to the object
 console.log(employee); // log the object with updated properties
 
 // Task 4: Customer Database //
-let customer = {
-    name: "Customer Name",
-    email: "customer@email.com",
-    purchaseAmount: 100,
-};
-customer.hasMembership = true; // added new object to the customer array
+let customers = [
+    {name: "Bye Felicia", email: "felicia.bye@gmail.com", purchaseAmount: 100},
+    {name: "Ooo Sharquisha", email: "sharquisha.ooo@gmail.com", purchaseAmount: 500},
+    {name: "No Name", email: "name.no@gmail.com", purchaseAmount: 200},
+]; // created an array with three different objects
+customers.push({name: "New Name", email: "name.new@gmail.com", purchaseAmount: 300}); // added a new object to the array
 
-console.log(customer); // logged the object and changes made
+console.log(customers); // logged the array and the newly added object
