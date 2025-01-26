@@ -36,3 +36,17 @@ let customers = [
 customers.push({name: "New Name", email: "name.new@gmail.com", purchaseAmount: 300}); // added a new object to the array
 
 console.log(customers); // logged the array and the newly added object
+
+// Task 5: Order Processing System //
+let order = {
+    orderID: 123,
+    customerName: "Regina George",
+    amount: 1000,
+
+    calculateTax: function(){
+        return this.amount * .10;
+    }
+};
+
+console.log(order); // logging the order details
+console.log(order.calculateTax); // logging the calculated tax
