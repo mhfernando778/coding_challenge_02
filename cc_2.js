@@ -26,3 +26,13 @@ employee.department = "USF Department"; // updated the deparment property to "US
 employee.position = "Worker"; // added employee position to the object
 
 console.log(employee); // log the object with updated properties
+
+// Task 4: Customer Database //
+let customer = {
+    name: "Customer Name",
+    email: "customer@email.com",
+    purchaseAmount: 100,
+};
+customer.hasMembership = true; // added new object to the customer array
+
+console.log(customer); // logged the object and changes made
