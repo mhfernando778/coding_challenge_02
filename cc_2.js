@@ -14,3 +14,15 @@ let averageScores = total / scores.length; // dividing the total by the length t
 
 console.log(scores); // log of updated array of scores
 console.log(averageScores); // log of average of all scores
+
+// Task 3: Employee Records //
+let employee = {
+    name: "Employee Name",
+    age: 100,
+    department: "No Department",
+    isActive: true
+};
+employee.department = "USF Department"; // updated the deparment property to "USF Department"
+employee.position = "Worker"; // added employee position to the object
+
+console.log(employee); // log the object with updated properties
